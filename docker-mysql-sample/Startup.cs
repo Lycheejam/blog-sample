@@ -36,8 +36,9 @@ namespace docker_mysql_sample
             });
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    //options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                    //新規追加
+                    options.UseMySql(Configuration.GetConnectionString("MySQLConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
