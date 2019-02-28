@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-tweet", "console-tw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitter-callback", "twitter-callback\twitter-callback.csproj", "{6E2D14D6-9516-4308-98E8-577A5384DD35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker-mysql-sample", "docker-mysql-sample\docker-mysql-sample.csproj", "{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{6E2D14D6-9516-4308-98E8-577A5384DD35}.Release|x64.Build.0 = Release|Any CPU
 		{6E2D14D6-9516-4308-98E8-577A5384DD35}.Release|x86.ActiveCfg = Release|Any CPU
 		{6E2D14D6-9516-4308-98E8-577A5384DD35}.Release|x86.Build.0 = Release|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Debug|x64.Build.0 = Debug|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Debug|x86.Build.0 = Debug|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Release|x64.ActiveCfg = Release|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Release|x64.Build.0 = Release|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5386515E-28BB-4E1E-8755-E5A3C0A30D8B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
