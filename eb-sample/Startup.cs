@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using eb_sample.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.HttpOverrides;
 
 namespace eb_sample
 {
@@ -65,6 +66,10 @@ namespace eb_sample
             app.UseCookiePolicy();
 
             app.UseAuthentication();
+
+            app.UseForwardedHeaders(new ForwardedHeadersOptions {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
 
             app.UseMvc(routes =>
             {
