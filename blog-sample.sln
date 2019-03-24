@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "using-mysql-package", "usin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eb-sample", "eb-sample\eb-sample.csproj", "{85417F8B-7C71-4C7D-A1FB-263A86673CB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scaffold-sample", "scaffold-sample\scaffold-sample.csproj", "{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{85417F8B-7C71-4C7D-A1FB-263A86673CB6}.Release|x64.Build.0 = Release|Any CPU
 		{85417F8B-7C71-4C7D-A1FB-263A86673CB6}.Release|x86.ActiveCfg = Release|Any CPU
 		{85417F8B-7C71-4C7D-A1FB-263A86673CB6}.Release|x86.Build.0 = Release|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Debug|x64.Build.0 = Debug|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Debug|x86.Build.0 = Debug|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Release|x64.ActiveCfg = Release|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Release|x64.Build.0 = Release|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Release|x86.ActiveCfg = Release|Any CPU
+		{5ADFEF09-51B7-4265-863B-7D5B86E24DE9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
