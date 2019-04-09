@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scaffold-sample", "scaffold
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mstdn-sample", "mstdn-sample\mstdn-sample.csproj", "{C658A7F2-3E8B-41B7-A30D-673A3712E694}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asyncawait-sample", "asyncawait-sample\asyncawait-sample.csproj", "{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{C658A7F2-3E8B-41B7-A30D-673A3712E694}.Release|x64.Build.0 = Release|Any CPU
 		{C658A7F2-3E8B-41B7-A30D-673A3712E694}.Release|x86.ActiveCfg = Release|Any CPU
 		{C658A7F2-3E8B-41B7-A30D-673A3712E694}.Release|x86.Build.0 = Release|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Debug|x64.Build.0 = Debug|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Release|x64.Build.0 = Release|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{0D66B4F0-72C5-4D1B-A69B-7C100DFB06AD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
