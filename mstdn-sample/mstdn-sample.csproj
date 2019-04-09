@@ -6,4 +6,8 @@
     <RootNamespace>mstdn_sample</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Mastonet" Version="1.4.1" />
+  </ItemGroup>
+
 </Project>
