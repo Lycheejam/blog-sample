@@ -17,7 +17,7 @@ namespace asyncawait_sample {
 
             //非同期メソッド
             Console.WriteLine("非同期メソッド");
-            var tasks = new Task<string>[] {
+            var tasks = new Task[] {
                 Task.Run(() => dlclient.BlogDownloadAsync("https://kitigai.hatenablog.com/entry/2019/04/04/133432")),
                 Task.Run(() => dlclient.BlogDownloadAsync("https://kitigai.hatenablog.com/entry/2019/04/03/155921")),
                 Task.Run(() => dlclient.BlogDownloadAsync("https://kitigai.hatenablog.com/entry/2019/04/01/203347"))
