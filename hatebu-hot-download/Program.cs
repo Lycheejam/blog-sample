@@ -9,8 +9,8 @@ namespace hatebu_hot_download {
 
             var url = "http://b.hatena.ne.jp/hotentry/all";
 
-            var downloder = new Downloader();
-            Console.WriteLine(await downloder.GetBodyAsync(url));
+            var downloder = new Downloader(url);
+            Console.WriteLine(await downloder.GetBodyAsync());
         }
     }
 }

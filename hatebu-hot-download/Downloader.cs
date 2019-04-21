@@ -4,17 +4,19 @@ using System.Threading.Tasks;
 
 namespace hatebu_hot_download {
     public class Downloader {
-        private static HttpClient client = new HttpClient();
+        private readonly Uri _url;
+        private static HttpClient _client = new HttpClient();
 
-        public Downloader() {
-            client.DefaultRequestHeaders.Add(
+        public Downloader(string url) {
+            _url = new Uri(url);
+            _client.DefaultRequestHeaders.Add(
                 "User-Agent",
                 "hogehoge"
             );
         }
 
-        public async Task<string> GetBodyAsync (string url) {
-            var response = await client.GetAsync(url);
+        public async Task<string> GetBodyAsync () {
+            var response = await _client.GetAsync(_url);
             return await response.Content.ReadAsStringAsync();
         }
 
