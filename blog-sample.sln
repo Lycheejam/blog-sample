@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "github_api", "github_api\gi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hatebu-hot-download", "hatebu-hot-download\hatebu-hot-download.csproj", "{FA1CBD6B-2038-4DAA-8A9D-72209D424879}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "connection-zikken", "connection-zikken\connection-zikken.csproj", "{93C50179-A30A-4114-A911-D52429C1A72E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,17 @@ Global
 		{FA1CBD6B-2038-4DAA-8A9D-72209D424879}.Release|x64.Build.0 = Release|Any CPU
 		{FA1CBD6B-2038-4DAA-8A9D-72209D424879}.Release|x86.ActiveCfg = Release|Any CPU
 		{FA1CBD6B-2038-4DAA-8A9D-72209D424879}.Release|x86.Build.0 = Release|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Debug|x64.Build.0 = Debug|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Debug|x86.Build.0 = Debug|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Release|x64.ActiveCfg = Release|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Release|x64.Build.0 = Release|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Release|x86.ActiveCfg = Release|Any CPU
+		{93C50179-A30A-4114-A911-D52429C1A72E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
