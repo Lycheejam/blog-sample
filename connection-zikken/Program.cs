@@ -8,8 +8,10 @@ namespace connection_zikken {
 
             var zikken = new Zikken();
 
-            //await zikken.BadPattern();
-            await zikken.GoodPattern();
+            //await zikken.BadPatternA();
+            //await zikken.BadPatternB();
+            //await zikken.GoodPatternA();
+            await zikken.GoodPatternB();
         }
     }
 }
