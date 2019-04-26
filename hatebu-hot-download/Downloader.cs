@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 namespace hatebu_hot_download {
     public class Downloader {
         private readonly Uri _url;
-        private static HttpClient _client = new HttpClient();
+        private static readonly HttpClient _client = new HttpClient();
 
         public Downloader(string url) {
             _url = new Uri(url);
