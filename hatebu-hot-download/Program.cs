@@ -13,18 +13,21 @@ namespace hatebu_hot_download {
             var url = "http://b.hatena.ne.jp/hotentry/all";
 
             var downloder = new Downloader(url);
-            var dlresult = await downloder.GetBodyAsync();
-            Console.WriteLine(dlresult);
+            var body = await downloder.GetBodyAsync();
 
             var parser = new Parser();
-            var document = await parser.RunAsync(dlresult);
+            var document = parser.Run(body);
 
             Console.WriteLine(document.Title);
 
-            var title = document.QuerySelectorAll("h3.entrylist-contents-title");
+            var entries = parser.GetHotEntry(document);
 
-            foreach (var item in title) {
-                Console.WriteLine(item.TextContent);
+            Console.WriteLine("件数：{0}", entries.Count());
+
+            foreach (var entry in entries) {
+                Console.WriteLine("{0} | {1}", entry.Attributes["title"].Value, entry.Attributes["href"].Value);
+                //Console.WriteLine(link.Attributes["title"].Value);
+                //Console.WriteLine(link.Attributes["href"].Value);
             }
         }
     }
